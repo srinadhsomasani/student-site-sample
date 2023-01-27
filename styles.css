@@ -15,7 +15,19 @@ body {
 .sub-div {
     background-color: red;
     border: 1px solid black;
-    margin: 10px;
+    margin: 0px 0px 0px 250px;
     height: 100px;
     width: 100px;
+    justify-content: center;
+    color: blue;
+    transform: rotate(25deg);
+}
+
+.sub-div:hover {
+    transition: background-color 0.5s;
+    background-color: violet;
+    font-size: 10px;
+    transform: rotate(28deg);
+    /* height: 10px; */
+    /* width: 10px; */
 }
