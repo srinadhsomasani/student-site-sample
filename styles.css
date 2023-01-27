@@ -1,8 +1,30 @@
 body {
     background-color: azure;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* border */
     /* padding: 10rem; */
+    margin: 2px;
+}
+
+header {
+    display: flex;
+    background-color: #f87171;
+    height: 50px;
+    /* align-items: flex-end; */
+    border: 1px solid black;
+}
+
+.toggle-button {
+    /* position: relative; */
+    background-color: blue;
+    align-items: flex-end;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 400px;
+    width: 20px;
+    height: 20px;
+    align-content: center;
 }
 
 .main-div {
